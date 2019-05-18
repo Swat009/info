@@ -1,0 +1,142 @@
+body
+{
+  font-family: "Open Sans";
+}
+
+
+.brand-logo{
+
+    color: black;
+}
+
+.myknowmorebutton
+{
+
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+.padcontent
+{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.myblackbutton
+{
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+  
+}
+.myknowmorebutton:hover
+{
+  background-color: #b7b9bc;
+  color: white;
+}
+.myblackbutton:hover
+{
+  background-color: #b7b9bc;
+ 
+}
+
+header
+{
+  
+  
+  
+  min-height: 750px; 
+}
+
+.sideLogo
+{
+  
+  background-size: cover; 
+  margin-top: 50px;
+}
+
+
+.mainContent
+{
+
+ 
+  font-size: 30px;
+  justify-content: center;
+  margin-top: 150px;
+  
+  padding-right: 200px;
+}
+.buttons
+{
+  display: inline-block;
+  margin: 10px;
+}
+
+.f1icons
+{
+  height: 165px;
+  width: 153px;
+}
+
+
+.f2icons
+{
+  min-height: 105px;
+  min-width: 93px;
+  max-height: 165px;
+  max-width: 153px;
+}
+
+@media screen and (max-width: 670px){
+
+  .mainContent{
+
+    margin-top: 150px;
+   
+    
+    
+  }
+  .sideLogo
+  {
+    
+    
+    margin-top: -150px;
+    max-height: 200px;
+    
+  }
+}
+
+
+.fiximg{
+ 
+  
+  height: 165px ;
+  width: 153px;
+  
+  
+}
+.clicklink
+{
+  color: black;
+}
+
+.flink{
+
+  padding: 10px;
+}
+
+footer {
+  max-height: 100px;
+  }
