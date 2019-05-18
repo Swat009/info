@@ -2,13 +2,14 @@
   "name": "jobbox",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://swat009.github.io/info/",
+  "homepage": "https://swat009.github.io/info/",
   "dependencies": {
     "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
     "google-form": "^1.0.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-image-overlay": "^1.0.5",
     "react-ionicons": "^3.0.1",
     "react-particles-js": "^2.6.0",
     "react-scripts": "2.1.8",
@@ -21,7 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy":"gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,5 +32,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "direction-reveal": "^1.3.4"
+  }
 }

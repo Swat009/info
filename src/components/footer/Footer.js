@@ -8,9 +8,14 @@ const footer = ()=>{
 
         <div className="footer">
 
-        <p>
-            SWATANTRA KUMAR ©2018
-        </p>
+            <div className="social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-google"></a>
+            </div>
+            <p>
+                SWATANTRA KUMAR ©2018
+            </p>
 
 
         </div>

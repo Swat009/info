@@ -1,103 +1,70 @@
-import React from "react";
+import React, {Component} from "react";
 import './About.css';
+import './direction-reveal.css';
+import DirectionReveal from 'direction-reveal';
+import yatra from '../../assets/companies/yatra.png';
+import itilite from '../../assets/companies/itilite.png';
 
-const about = ()=>{
 
 
+
+class About extends Component {
+
+
+    componentDidMount(){
+
+        const directionRevealSwing = DirectionReveal({
+            selector: '.direction-reveal',              // Container element selector.
+            itemSelector: '.direction-reveal__card',    // Item element selector.
+            animationName: 'swing',                     // Animation CSS class.
+            enableTouch: true,                          // Adds touch event to show content on first click then follow link on the second click.
+            touchThreshold: 250                         // Touch length must be less than this to trigger reveal which prevents the event triggering if user is scrolling.
+          });
+        
+
+    }
+
+
+    render(){
     return (
 
     <div className="about">
+    
 
 
-        <h1>Hover around the boxes below</h1>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                <div class="photo-container" style={{backgroundImage: "url(https://source.unsplash.com/600x250/?sig=25)"}}></div>
-                <h2>Image 251 </h2>
-                <div class="slide">
-                    <p>Quam molestiae ipsa sapiente mollitia, nobis.</p>
-                </div>
-                </div>
-                <div class="col">
-                <div class="photo-container" style={{backgroundImage: "url('https://source.unsplash.com/600x250/?sig=182')"}} ></div>
-                <h2>Image 182 </h2>
-                <div class="slide">
-                    <p>Autem possimus perspiciatis, eaque quos repudiandae modi labore sed repellat dolorum magnam praesentium expedita esse tempore saepe nulla.</p>
-                </div>
-                </div>
-                <div class="col">
-                <div class="photo-container" style={{backgroundImage: "url('https://source.unsplash.com/600x250/?sig=243')"}} ></div>
-                <h2>Image 243 </h2>
-                <div class="slide">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                <div class="photo-container" style={{backgroundImage: "url('https://source.unsplash.com/600x250/?sig=163')"}} ></div>
-                <h2>Image 163 </h2>
-                <div class="slide">
-                    <p>Autem possimus perspiciatis, eaque quos repudiandae modi labore sed repellat dolorum magnam praesentium expedita esse tempore saepe nulla.</p>
-                </div>
-                </div>
-                <div class="col">
-                <div class="photo-container" style={{backgroundImage: "url('https://source.unsplash.com/600x250/?sig=275')"}} ></div>
-                <h2>Image 275 </h2>
-                <div class="slide">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                <div class="photo-container" style={{backgroundImage: "url('https://source.unsplash.com/600x250/?sig=108')"}}></div>
-                <h2>Image 108 </h2>
-                <div class="slide">
-                    <p>Doloremque quisquam molestias, est laudantium vero aliquid dolorum inventore atque sint perferendis qui dolor voluptas consequuntur non.</p>
-                </div>
-                </div>
-                <div class="col">
-                <div class="photo-container" style={{backgroundImage: "url('https://source.unsplash.com/600x250/?sig=84')"}} ></div>
-                <h2>Image 84 </h2>
-                <div class="slide">
-                    <p>Facere illo pariatur necessitatibus fugit quo impedit, quae, corporis placeat recusandae dolor ipsa nobis!</p>
-                </div>
-                </div>
-                <div class="col">
-                <div class="photo-container" style={{backgroundImage: "url('https://source.unsplash.com/600x250/?sig=235')"}} ></div>
-                <h2>Image 235 </h2>
-                <div class="slide">
-                    <p>Quam molestiae ipsa sapiente mollitia, nobis.</p>
-                </div>
-                </div>
-                <div class="col">
-                <div class="photo-container" style={{backgroundImage: "url('https://source.unsplash.com/600x250/?sig=207')"}} ></div>
-                <h2>Image 207 </h2>
-                <div class="slide">
-                    <p>Autem possimus perspiciatis, eaque quos repudiandae modi labore sed repellat dolorum magnam praesentium expedita esse tempore saepe nulla.</p>
-                </div>
-                </div>
-                <div class="col">
-                <div class="photo-container" style={{backgroundImage: "url('https://source.unsplash.com/600x250/?sig=201')"}} ></div>
-                <h2>Image 201 </h2>
-                <div class="slide">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                </div>
-            </div>
+        <h1 className="revealOnScroll" >About</h1>
+
+
+        <div className="direction-reveal container">
             
+            <a href="#" className="direction-reveal__card col">
+                <img src={yatra} alt="Image" className="img-fluid" />
+
+                <div className="direction-reveal__overlay direction-reveal__anim--in">
+                <h3 className="direction-reveal__title">Title</h3>
+                <p className="direction-reveal__text">Description text.</p>
+                </div>
+            </a>
+
+            <a href="#" className="direction-reveal__card col">
+                <img src={itilite} alt="Image" className="img-fluid" />
+
+                <div className="direction-reveal__overlay direction-reveal__anim--in">
+                <h3 className="direction-reveal__title">Title</h3>
+                <p className="direction-reveal__text">Description text.</p>
+                </div>
+            </a>
+
+       
         </div>
-
-
     </div>
 
 
 )
+}
 
   
 
 }
 
-export default about;
+export default About;

@@ -9,6 +9,7 @@ const header = (prop) =>{
         <div className="particle-style">
             <Particles
             
+                height={700}
                 className='particles'
                 params={{
                     particles: {
@@ -18,7 +19,7 @@ const header = (prop) =>{
                             value:200,
                             density:{
                                 enable:true,
-                                value_area: 800
+                                value_area: 1000
                             }
                         },
                         
