@@ -9,7 +9,7 @@ const header = (prop) =>{
         <div className="particle-style">
             <Particles
             
-                height={700}
+                height={800}
                 className='particles'
                 params={{
                     particles: {
@@ -45,10 +45,11 @@ const header = (prop) =>{
             <div className="text">
                 <h3>Hello, I'm <span>Swatantra Kumar</span></h3>
                 <h4>I'm a full-stack web developer</h4>
-                <div className="knowmore">
-                    <span className="no_hover"> <a className="knowmore" href="#feature">Know More</a> <i class="arrow right"></i></span>
-                    <span className="hover"> <a className="knowmore" href="#feature">Know More <i class="arrow down"></i> </a></span>
-                </div>
+                <div style={{margin:'auto'}}>
+                    <a className="knowmore" href="#about">Know More</a>
+                    <a className="knowmore" href="#connect">Connect</a>
+                </div> 
+                
             </div>
         </div>
     );

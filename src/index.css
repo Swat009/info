@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none; 
+ 
+}
+
 html{
 
   margin: 0;
@@ -6,12 +13,15 @@ html{
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans Condensed', sans-serif;
-  min-height:100vh;
+  font-family: 'Oxygen', sans-serif;
+  background-color: #252934;
+  
+  min-height: 100vh;
   display: flex;
-  flex-direction: column; /* creates rows out of the elements main and footer */
-  height: 100vh; 
-  margin:0;
+  align-content: flex-start;
+  flex-direction: column;
+  justify-content: center; 
+
 }
 
 code {

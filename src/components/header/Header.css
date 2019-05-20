@@ -1,9 +1,14 @@
-
+.header{
+	margin: 0;
+	padding: 0;
+}
 .particle-style
 {
-    
+		margin: 0;
+		padding: 0;
     height: 900px;
-    background: black;
+    background-color: #252934;
+ 
    
 }
 
@@ -39,48 +44,36 @@ i {
 }
 
 .down {
-	margin-left: 10px; 
+	margin-left: 5px; 
 	transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
 }
 
-.knowmore a{
-	color: white;
-	text-decoration: none;
-}
-.hover{
 
-	display: none;
-	margin-top: 10px; 
-
-}
-
-.no_hover{
+.knowmore{
+	
 	color:white;
 	border:2px solid white;
 	display: inline-block;
 	text-align: center;
 	text-decoration: none;
 	font-size: 20px;
-	padding: 10px 20px;
+	margin-right: 10px;
 	margin-top: 20px; 
+	padding: 10px 20px;
+
+	
 }
-.knowmore:hover .hover{
+
+
+.knowmore:hover{
 
 	background-color:#65b5aa;
-	display: inline-block;
-	color:white;
-	border:2px solid #65b5aa;	
-	text-align: center;
-	text-decoration: none;
-	font-size: 20px;
-	padding: 10px 20px;
-	margin-top: 20px; 
    
 }
 .knowmore:hover .no_hover{
 	display: none;
-	margin-top: 10px; 
+
 }
 .text {
 	position: absolute;
