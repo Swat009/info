@@ -24,6 +24,7 @@ hr {
 slidetext h3{
 
   color: grey;
+  overflow-y: scroll;
 }
 
   h1 {

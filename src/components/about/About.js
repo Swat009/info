@@ -12,7 +12,10 @@ import jobbox from '../../assets/companies/jobbox.jpeg';
 import Slideshow from '../slider/Slider';
 import yatraslide from '../../assets/slides/yatra.png';
 import studyfolksslide from '../../assets/slides/studyfolks.png';
+import jobboxslide from '../../assets/slides/jobbox.png';
 import twowaitsslide from '../../assets/slides/twowaits.png';
+import itiliteslide from '../../assets/slides/itilite.png';
+
 
 
 
@@ -20,24 +23,20 @@ const slideImages = [
 
     [   
         yatraslide,
-        studyfolksslide,
-        twowaitsslide  
+        
     ],
 
     [   
-        studyfolksslide,
-        twowaitsslide  
+        itiliteslide
+    ],
+    [   
+        jobboxslide
     ],
     [   
         studyfolksslide,
-        twowaitsslide  
+        
     ],
     [   
-        studyfolksslide,
-        twowaitsslide  
-    ],
-    [   
-        studyfolksslide,
         twowaitsslide  
     ],
 
@@ -61,6 +60,7 @@ const slideText= [
     in all customer support centers of Yatra and Travel Guru in India and abroad.<br/>
     - Design and development of module to convert GPS coordinates to Navigation coordinates for Yatra’s
     Augmented Reality Project.
+   
     `,
 
     `<h2>ITILITE PVT. LTD</h2>
@@ -77,10 +77,11 @@ const slideText= [
         <h3> Cofounder (Spring 2019-present) </h3> 
         <hr/>
         <br/>
-        Building a B2B Edtech platform to enable companies hire quality candidates for front facing roles like Content
+       <p> Building a B2B Edtech platform to enable companies hire quality candidates for front facing roles like Content
         Managers, Business Development Executives etc.(More Details Soon)<br/>
+       </p>
 
-        <a  href='https://getjobbox.com' >Know More</a>
+        <a   target="_blank"  href='https://getjobbox.com' >Visit Site</a>
             
     `,
     `

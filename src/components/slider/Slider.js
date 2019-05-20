@@ -14,7 +14,7 @@ const arrowRight = {
 const RightArrow = (props) => {
   return (
     <div style={{zIndex: '100', background: 'transparent',position:'fixed', top: '330px', right: '0' }} className="nextArrow" onClick={props.goToNextSlide}>
-      <i className="fa fa-chevron-right" aria-hidden="true"></i>
+      {/* <i className="fa fa-chevron-right" aria-hidden="true"></i> */}
     </div>
   );
 }
@@ -23,7 +23,7 @@ const RightArrow = (props) => {
 const LeftArrow = (props) => {
     return (
       <div style={{zIndex: '100', position:'fixed', top: '330px',left: '0' }} className="backArrow" onClick={props.goToPrevSlide}>
-        <i className="fa fa-chevron-left" aria-hidden="true"></i>
+        {/* <i className="fa fa-chevron-left" aria-hidden="true"></i> */}
       </div>
     );
 }
