@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/info/static/media/yatra.cd2e8f61.png"
   },
   {
-    "revision": "d336f0d8cc68d8abd184",
-    "url": "/info/static/css/main.bad2dcef.chunk.css"
+    "revision": "74f2df261d39db2185b3",
+    "url": "/info/static/css/main.a207d3cc.chunk.css"
   },
   {
     "revision": "1d690396bbd26ac904b5",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/info/static/media/itilite.a4ec3f37.png"
   },
   {
-    "revision": "d336f0d8cc68d8abd184",
+    "revision": "74f2df261d39db2185b3",
     "url": "/info/static/js/main.ba15d420.chunk.js"
   },
   {
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/info/static/media/itilite.bfbb74f6.png"
   },
   {
-    "revision": "09f8ba03a86748e00abe573b0afe9ac2",
+    "revision": "f6f51943b3aa45ebf2a51dd08e51f53f",
     "url": "/info/index.html"
   }
 ];
